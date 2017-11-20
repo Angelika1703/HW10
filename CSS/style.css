@@ -1,0 +1,161 @@
+div, p, li {
+	box-sizing: border-box;
+}
+.section_1 {
+	background: url(../img/sec1_bg.jpg) no-repeat;
+	background-size: cover;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+h1 {
+	width: 749px;
+	font: 700 60px 'Roboto';
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+.header {
+	padding: 500px 230px 50px 230px;
+}
+.btn {
+	font: 700 18px 'Roboto';
+	text-transform: uppercase;
+	color: #fff;
+	width: 185px;
+	background-color: rgba(255,255,255,0);
+	border: solid 2px #fff;
+	padding: 20px 35px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+.points {
+	color: #fff;
+	padding-top: 190px;
+	padding-bottom: 40px;
+	margin: 0;
+	float: right;
+}
+.circle_2 {
+	list-style-type: circle;
+}
+.section_2 {
+	background-color: #252e30;
+}
+.logo {
+	float: left;
+	padding: 15px 290px 15px 10px;
+} 
+.menu li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+}
+.menu a {
+	font: 700 16px/40px 'Roboto';
+	color: #fff;
+	text-transform: uppercase;
+	padding-right: 30px;
+}
+.menu a:last_child {
+	padding-right: 0;
+}
+.menu .active {
+	color: #2ecc71;
+}
+.section_3 {
+	padding-bottom: 100px;
+}
+.col {
+	width: 400px;
+	float: left;
+	padding-top: 100px;
+}
+.head {
+	color: #566366;
+	font: 700 30px 'Roboto';
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 50px;
+}
+.descr {
+	color: #919191;
+	font: 400 18px/30px 'Roboto';
+	margin: 0;
+}
+.section_4 {
+	background-color: #f2f2f1;
+}
+.about_me {
+	padding-bottom: 95px;
+}
+.section_4 .left-img {
+	background: url(../img/left_img.jpg);
+	float: left;
+	width: 610px;
+	height: 750px;
+}
+.left-img:hover {
+	background: url(../img/left_img2.jpg);
+	cursor: pointer;
+}
+.section_4 .wrapper .about_me {
+	padding-top: 100px;
+	width: 680px;
+	float: right;
+	margin: 0;
+}
+.about_me .descr {
+	width: 680px;
+	padding-bottom: 45px;
+}
+.skills {
+	padding-top: 10px;
+}
+.subheader {
+	color: #566366;
+	font: 700 22px 'Roboto';
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 20   px;
+}
+div[class|="icon"] {
+	float: left;
+	width: 44px;
+	height: 44px;
+	margin-top: 7px;
+	margin-bottom: 12%;
+    margin-right: 6%;
+}
+.icon-1 {
+	background: url(../img/icon1.png);
+}
+.icon-2 {
+	width: 37px;
+	background: url(../img/icon2.png);
+}
+.icon-3 {
+	background: url(../img/icon3.png);
+}
+.icon-4 {
+	background: url(../img/icon4.png);
+}
+.left {
+	width: 330px;
+	float: left;
+}
+.right {
+	width: 330px;
+	float: right;
+}
+.skills .descr {
+	width: 330px;
+}
+
+
